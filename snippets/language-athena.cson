@@ -1,0 +1,33 @@
+# If you want some example snippets, check out:
+# https://github.com/atom/language-gfm/blob/master/snippets/gfm.cson
+
+'.source.athena':
+  'Method documentation':
+    'prefix': 'doc'
+    'body': '// ${1:method} - ${2:description}'
+  'Message':
+    'prefix': 'mes'
+    'body': 'mes \"${1:method}\";'
+  'Script Documentation Header':
+    'prefix': 'script_documentation_header'
+    'body': '//===== Script =========================================================================
+    \n//= ${1:script_name}
+    \n//===== Made by: =======================================================================
+    \n//= ${2:names}
+    \n//===== Made by: =======================================================================
+    \n//= ${3:names}
+    \n//===== Current Version: ===============================================================
+    \n//= ${4:version}
+    \n//===== Compatible With: ===============================================================
+    \n//= ${5:compatible_version}
+    \n//===== Description: ===================================================================
+    \n//= ${6:description}
+    \n//===== Additional Comments: ===========================================================
+    \n//= ${7:version}: ${8:comment}
+    \n//======================================================================================'
+  'Script Header Template':
+    'prefix': 'script_header_template'
+    'body': '<map>,<x>,<y>,<facing> script <npcname> <npcsprite>'
+  'Script Config Comment':
+    'prefix': 'script_config_comment'
+    'body': '//===== Configs: ======================================================================='

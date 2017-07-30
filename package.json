@@ -1,0 +1,21 @@
+{
+  "name": "language-athena",
+  "version": "0.0.0",
+  "description": "Language package for athena scripts",
+  "keywords": [
+    "language",
+    "grammar",
+		"athena"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoWei/language-athena.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JoWei/language-athena/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
